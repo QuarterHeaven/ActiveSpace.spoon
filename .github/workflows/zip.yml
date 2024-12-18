@@ -23,7 +23,7 @@ jobs:
       - name: Commit and push
         uses: EndBug/add-and-commit@v9
         with:
-          add: '["Spoons/PaperWM.spoon.zip --force"]'
+          add: '["Spoons/ActiveSpace.spoon.zip --force"]'
           message: "Bundle into zip"
           push: origin release --set-upstream --force
           new_branch: release
